@@ -403,3 +403,52 @@ input {
     padding: 0 1.8em;
     margin: 1.5em 0;
 }
+/* udemy business section */
+.udemy-business {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 0 0.5em;
+}
+.business-logo {
+    width: 45%;
+}
+.udemy-content {
+    width: 35%;
+    height: 100%;
+    /* margin-bottom: 10em; */
+    margin: 0.6em 0 1em;
+}
+.udemy-img {
+    width: 32%;
+}
+.udemy-content h1 {
+    margin: 0.5em 0;
+}
+.udemy-content ul li {
+    list-style: disc;
+    font-size: 1.3rem;
+    margin: 0.5em 0 0 0.9em;
+    line-height: 1.4;
+}
+.get-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 0.8em;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.learn-btn {
+    background-color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    padding: 0.6em 0.5em;
+    border: 1px solid black;
+    margin-left: 0.3em;
+}
+.udemy-btn {
+    margin: 1em 8em 0 0;
+}
